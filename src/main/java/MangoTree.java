@@ -14,11 +14,9 @@ public class MangoTree {
     }
 
     public boolean findTheMangoTree() {
-        if (findTheMangoTreeSomeWhere(0, columns, columns, "row")) {
-            return true;
-        } else if (findTheMangoTreeSomeWhere(rows, 0, rows, "column")) {
-            return true;
-        } else if (findTheMangoTreeSomeWhere(rows, columns - 1, rows, "column")) {
+        if (findTheMangoTreeSomeWhere(0, columns, columns, "row") ||
+                findTheMangoTreeSomeWhere(rows, 0, rows, "column") ||
+                findTheMangoTreeSomeWhere(rows, columns - 1, rows, "column")) {
             return true;
         } else {
             return false;
