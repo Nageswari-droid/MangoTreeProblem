@@ -14,13 +14,9 @@ public class MangoTree {
     }
 
     public boolean findTheMangoTree() {
-        if (findTheMangoTreeSomeWhere(0, columns, columns, "row") ||
+        return (findTheMangoTreeSomeWhere(0, columns, columns, "row") ||
                 findTheMangoTreeSomeWhere(rows, 0, rows, "column") ||
-                findTheMangoTreeSomeWhere(rows, columns - 1, rows, "column")) {
-            return true;
-        } else {
-            return false;
-        }
+                findTheMangoTreeSomeWhere(rows, columns - 1, rows, "column"));
     }
 
     public boolean findTheMangoTreeSomeWhere(int rows, int columns, int iteratorLimit, String rowOrColumn) {
@@ -29,10 +25,12 @@ public class MangoTree {
             if (rowOrColumn.equals("row")) {
                 if (gardenMatrix[rows][i] == treeNumber) {
                     mangoTreeIsFoundOrNot = true;
+                    break;
                 }
             } else {
                 if (gardenMatrix[i][columns] == treeNumber) {
                     mangoTreeIsFoundOrNot = true;
+                    break;
                 }
             }
         }

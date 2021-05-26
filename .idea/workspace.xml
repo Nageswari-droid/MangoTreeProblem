@@ -5,16 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0b651f86-4da5-4a98-8faf-7f469d0427d1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.8/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MangoTreeWithoutGradle/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MangoTreeWithoutGradle/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MangoTreeWithoutGradle/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MangoTreeWithoutGradle/MangoTree.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MangoTreeWithoutGradle/out/production/MangoTree/GardenTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MangoTreeWithoutGradle/out/production/MangoTree/MangoTree.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MangoTreeWithoutGradle/src/GardenTree.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MangoTreeWithoutGradle/src/MangoTree.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/MangoTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MangoTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/MangoTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/MangoTreeTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
