@@ -9,7 +9,7 @@ public class MangoTreeTest {
 
     @BeforeAll
     public static void setup() {
-        mangoTree = new MangoTree(4, 5, 15);
+        mangoTree = new MangoTree(3, 4, 2);
     }
 
     @Test
