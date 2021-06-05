@@ -3,37 +3,14 @@ public class MangoTree {
     private int rows;
     private int columns;
     private int treeNumber;
-    private int[][] gardenMatrix;
-    private boolean mangoTreeIsFoundOrNot;
 
-    MangoTree(int rows, int columns, int treeNumber, int[][] gardenMatrix) {
+    MangoTree(int rows, int columns, int treeNumber) {
         this.rows = rows;
         this.columns = columns;
         this.treeNumber = treeNumber;
-        this.gardenMatrix = gardenMatrix;
     }
 
-    public boolean findTheMangoTree() {
-        return (findTheMangoTreeSomeWhere(0, columns, columns, "row") ||
-                findTheMangoTreeSomeWhere(rows, 0, rows, "column") ||
-                findTheMangoTreeSomeWhere(rows, columns - 1, rows, "column"));
-    }
-
-    public boolean findTheMangoTreeSomeWhere(int rows, int columns, int iteratorLimit, String rowOrColumn) {
-        mangoTreeIsFoundOrNot = false;
-        for (int i = 0; i < iteratorLimit; i++) {
-            if (rowOrColumn.equals("row")) {
-                if (gardenMatrix[rows][i] == treeNumber) {
-                    mangoTreeIsFoundOrNot = true;
-                    break;
-                }
-            } else {
-                if (gardenMatrix[i][columns] == treeNumber) {
-                    mangoTreeIsFoundOrNot = true;
-                    break;
-                }
-            }
-        }
-        return mangoTreeIsFoundOrNot;
+    public boolean checkMangoTree(){
+        return (treeNumber % columns == 0 || treeNumber % columns == 1 || treeNumber % columns == treeNumber);
     }
 }
